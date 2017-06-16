@@ -49,6 +49,7 @@ group :development do
   gem 'erb2haml'
 end
 
+gem 'haml-rails'
 gem 'pry-rails'
 gem 'compass-rails','~> 2.0'
 gem 'sprockets', '2.11.0'
