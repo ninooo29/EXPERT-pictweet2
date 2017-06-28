@@ -49,9 +49,12 @@ group :development do
   gem 'erb2haml'
 end
 
+
+gem 'jquery-rails'
 gem 'haml-rails'
 gem 'pry-rails'
 gem 'compass-rails','~> 2.0'
 gem 'sprockets', '2.11.0'
 gem 'kaminari'
 gem 'devise'
+# gem 'jbuilder', '~> 2.5'
