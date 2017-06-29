@@ -49,6 +49,11 @@ group :development do
   gem 'erb2haml'
 end
 
+group :production do
+  gem 'unicorn'
+end
+
+
 
 gem 'jquery-rails'
 gem 'haml-rails'
