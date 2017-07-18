@@ -12,9 +12,14 @@ $(function(){
   $('#new_comment').on('submit', function(e){
     e.preventDefault();
     var formData = new FormData(this);
-    var href = window.location.href + '/comments'
+    // var href = window.location.href + '/comments'
+    // var $form = $(this);
+    console.log(this)
+    console.log($(this))
+    var aaa = this.action
+    console.log(aaa)
     $.ajax({
-      url: href,
+      url: $form.attr('action'),
       type: "POST",
       data: formData,
       dataType: 'json',
